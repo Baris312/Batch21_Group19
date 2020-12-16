@@ -1,4 +1,4 @@
-package CassandraBoden;
+package Task001;
 
 public class Task001 {
 }
