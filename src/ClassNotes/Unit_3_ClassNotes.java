@@ -5,7 +5,7 @@ public class Unit_3_ClassNotes {
     /*
         day29_Methods
 
- method: MUST be within class
+ method: MUST be within class  can not be Out of Class or in Other method !
  AccessModifier  specifier   returnTYPE   MethodName (Parameter){   statements   }
 
  AccessModifier: public, protected, default, private
@@ -13,14 +13,14 @@ public class Unit_3_ClassNotes {
 
  specifier: static, final, abstract, synchronized
 
- static: can be called through the class name
- void: method does not return any dataparameter:
+** static: can be called through the class name
+** void: method does not return any dataparameter:
 
 ------------------------------------------------------------
 
    without parameter: if all info are known for completing the functionality
    with parameter: additional information that's must needed for the method to complete the functionality
-   if method passes parameter, we MUST give argument to the method when we call it
+** if method passes parameter, we MUST give argument to the method when we call it
 
 ----------------------------------------------------------------
 
@@ -28,23 +28,23 @@ Retrun Method :   MUST return a matching data makes the data of the method to be
 
 ----------------------------------------------------------------
 Method Overloading: multiple methods sharing the same name
-Parameters MUST BE DIFFERENT (either data type or number of parameters)
+** Parameters MUST BE DIFFERENT (either data type or number of parameters)
 SAME  NAME  DIFFERENT PARAMETERS
 return  = does not matter (can be same or different)
 
 
 ----------------------------------------------------------------
 
-WrapperClass ===>
+WrapperClass ===> Wrapper classes are object of primitives
 Data Structures:
 1. Array: supports both primitives and none primitives
 2. Collection: does not support primitives
 3. Map: does not support primitives
 Wrapper class: Byte, Short, Integer, Long, Float, Double, Character, Boolean
 presensted in "java.lang"package.
- Autoboxing: coverting primitives to wrapper class value
- Unboxing: converting wrapper class value to primitives Integer, Double,  Boolean, Character
- methods:
+  *   Autoboxing: coverting primitives to wrapper class value
+  *  Unboxing: converting wrapper class value to primitives Integer, Double,  Boolean, Character
+    methods:
  1. parse methods: converting string to primitives not case sensitive
  2. valueOf methods: converting string to Wrapper class not case sensitive
 
@@ -54,7 +54,8 @@ Data Structurs:
 1. Array: size is fixed, [], supports primitives & non primitive
 2. Collection: size is dynamic, does not support primitives
 3. Map: size is dynamic, does not support primitives
-ArrayList: part of Collection, is a class, internally uses arraysize is automatically adjusteddoes not support primitives   has index
+***ArrayList: part of Collection, is a class,
+ internally uses arraysize is automatically adjusteddoes not support primitives   has index **
 
 
 
