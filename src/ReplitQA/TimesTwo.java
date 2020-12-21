@@ -21,7 +21,7 @@ public class TimesTwo {
     {
           int i =0;
         for (int each : nums){
-         nums.set(i,(each*2) );    // set method only works set(index , element)
+         nums.set(i,(each*2) );    // set method only works set(index , element) thats why for or foreach loop with i;
          i++;
         }
         System.out.println(nums);
