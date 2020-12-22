@@ -1,6 +1,6 @@
-package ClassNotes;
+package JAVA_ClassNotes;
 
-public class Unit_3_ClassNotes {
+public class JAVA_ClassNotes {
 
     /*
         day29_Methods
@@ -104,7 +104,7 @@ static: belong to the class, class member -> there is only one copy is shared by
 -static variables: belong to the class.
 ONLY one copy static methods: belong to the class.
 
-
+=================================================================================================
 
 
      */

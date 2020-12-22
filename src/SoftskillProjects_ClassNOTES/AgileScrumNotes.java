@@ -1,4 +1,4 @@
-package SoftskillProjects.Agile;
+package SoftskillProjects_ClassNOTES;
 
 public class AgileScrumNotes {
     /*
