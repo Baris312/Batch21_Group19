@@ -6,6 +6,8 @@ public class MethodOverLoading_VS_OverRiding {
 /*
 
                                     *******  OverLoading ************
+
+            *  Any method can be overloaded
             *  Providing two or more separate methods in a class with SAME NAME but DIFFERENT PARAMETERS
                                                                         --------------------------------
             * method return type can be different and it allow us to use same method name .
@@ -16,15 +18,30 @@ public class MethodOverLoading_VS_OverRiding {
             * must have different parameters
             * can have different access modifier
 
+ why we need this?
+       * to give different implementation to the method
+       * Advantages:
+       - flexible
+       - reusable
+       - less memory
 
+** Object class: from  "java.lang", parent of all classes. implicitly done
+---------------------------------------------------------------------------
 
                                       ****  OVERRIDING
 
-* can be apply in subclass that already exist in parent class  signature (same name , same parameters)
+* MUST  be apply in subclass that already exist in parent class  signature (same name , same parameters)
 * its better to use @ annotation to se overriding  successful
 * return type  must same return type of parent class
 * Methods are final can not be overriding
 * Subclass an use super.methodName()   o call the superclass version of overridden method
+* ONLY instance can be overridden (private)
+* access modifier: MUST be same or more visible
+ * visibility:
+                           -> public > protected > default
+                   *** methods that cannot be overridden: private, static, constructor, final
+                   ---------------------------------------------------------------------------
+
 
 
 

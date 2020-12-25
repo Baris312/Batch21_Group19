@@ -4,16 +4,16 @@ public class OOP_ClassNotes {
 
     /*
                             *OP: Object Oriented Programming  *****   A PIE
-                * 1. Encapsulation
-                * 2. Inheritance: extends
-                * 3. Abstraction: abstract, implmenets, interface
-                * 4. Polymorphism: instanceOf
 
-
+                * 1. Abstraction: abstract, implements, interface
+                * 2. Polymorphism: instanceOf
+                * 3. Inheritance: extends
+                * 4. Encapsulation
 
                 *Encapsulation:
-                * hiding data, fields (instance variable)
-                * hiding the data by private.
+                * protect data, fields (instance variable)
+                * protect  member of class and some methods from external access ad change  by private.
+                * prevent unauthorized setup or modification or access
                 * user the getter-s & setter-ing to read and write
 
 
@@ -44,30 +44,6 @@ public class OOP_ClassNotes {
 
 
 
-Method overloading: same method name, different parameters
-        returnType does not matter
-        Any method can be overloaded
-method overriding: same method name, same parameter
-                       * MUST happen in subclass
-                       * ONLY instance can be overridden (private)
-                       * access modifier: MUST be same or more visible
-                       * returnType: MUST be same
-                       * @override annotation MUST be applicable
-                       * visibility:
-                           -> public > protected > default
-                   *** methods that cannot be overridden: private, static, constructor, final
-                   ---------------------------------------------------------------------------
-
-
-    why we need this?
-       * to give different implementation to the method
-       * Advantages:
-       - flexible
-       - reusable
-       - less memory
-
-** Object class: from  "java.lang", parent of all classes. implicitly done
----------------------------------------------------------------------------
                    method Overriding
  *** super keyword ==> super: refers to the object instance. super class
     super.: to call instances.  super class
