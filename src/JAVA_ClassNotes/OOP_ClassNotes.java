@@ -83,7 +83,7 @@ method overriding: same method name, same parameter
         variables: MUST be initialized. cannot be re-assigned.
         methods: cannot be overridden
         class: class cannot be extended
-                final class CANNOT  be sub class, but can NEVER be super class
+                final class can  be sub class, but can NEVER be super class
 
      */
 }
