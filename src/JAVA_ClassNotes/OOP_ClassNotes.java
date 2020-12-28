@@ -10,6 +10,7 @@ public class OOP_ClassNotes {
                 * 3. Inheritance: extends
                 * 4. Encapsulation
 
+
                 *Encapsulation:
                 * protect data, fields (instance variable)
                 * protect  member of class and some methods from external access ad change  by private.
@@ -60,6 +61,12 @@ public class OOP_ClassNotes {
         methods: cannot be overridden
         class: class cannot be extended
                 final class can  be sub class, but can NEVER be super class
+
+
+   ===============================================================================
+                ******** POLYMORPHISM ***********
+
+   * 
 
      */
 }

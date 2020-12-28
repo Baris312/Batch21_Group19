@@ -14,7 +14,7 @@ public class JDK_JRE_JVM {
 
     *  JRE - Java Run time Environment
     -  its basically runs java programs
-    - It has java development tools, libraries , java launcher and other files that JVM uses t runtime
+    - It has java development tools, libraries , java launcher and other files that JVM uses to  execute
     
 
 
@@ -33,6 +33,21 @@ public class JDK_JRE_JVM {
 
 
 
-
+m
      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
