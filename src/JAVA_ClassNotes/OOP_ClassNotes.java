@@ -12,6 +12,7 @@ public class OOP_ClassNotes {
 
 
                 *Encapsulation:
+                - Why we use Encapsulation method ?
                 * protect data, fields (instance variable)
                 * protect  member of class and some methods from external access ad change  by private.
                 * prevent unauthorized setup or modification or access
