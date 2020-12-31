@@ -3,6 +3,8 @@ package ReplitQA;
 
 public class StoreProduct {
 
+
+
    public String label;
    public int price;
    public String category;
@@ -10,6 +12,7 @@ public class StoreProduct {
    public int stock ;
 
 
+    //  * The main constructor
     public StoreProduct(String label, int price, String category, boolean hasExpiration, int stock)
     {
         this.label = label;
@@ -18,7 +21,8 @@ public class StoreProduct {
         this.hasExpiration = false;
         this.stock = stock;
     }
-
+//  * A secondary constructor that does not have
+//  a category or an expiration (category defaults to "misc", hasExpiration defaults to false)
     public StoreProduct(String label, int price, int stock)
     {
         this.label = label;
@@ -27,7 +31,7 @@ public class StoreProduct {
         category="misc";
         hasExpiration=false;
     }
-
+// * A secondary constructor that does not have a category, expiration, or stock (stock defaults to 0)
     public StoreProduct(String label, int price)
     {
         this.label = label;
@@ -36,7 +40,7 @@ public class StoreProduct {
         category="misc";
         hasExpiration=false;
     }
-
+//  * A secondary constructor that just does not have stock
     public StoreProduct(String label, int price, String category, boolean hasExpiration)
     {
         this.label = label;

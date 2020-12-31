@@ -82,7 +82,20 @@ public class AgileScrumNotes {
     - To make sure which user stories needs to be developed first.
 
 
+==================================================================================
 
+     * What meeting do you have beside Agile meeting?
+            -  test case review
+            -  Code review --> git/github
+            -  bug evaluation
+            -  Brown bag -> lunch time meeting, to share experience or talk about project/ hint to improve skills
+            -  mentoring session -> dev/testers teach language/skills to each other
+            -  happy hours --> this can be at the company,might be at outside-hiking, play sports through Zoom now days
+
+    * Knowledge transfer session (KT)
+    - might be your first one-on-one meeting when you just join the company
+     to get some general info about the team, agile, project, framework, etcWhich testing typed do you prefer?
+     -------------------------------
 
     * What is BurnDown Chart ;
     - Chart that has Sprint Points value start from planned point to subtract each day complete points ,

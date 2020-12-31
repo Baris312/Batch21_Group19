@@ -9,7 +9,7 @@ Unit 3
  specifier: static, final, abstract, synchronized
 
  static: can be called through the class name
- void: method does not return any dataparameter:
+ void: method does not return any data-parameter:
 
 ------------------------------------------------------------
 
@@ -19,7 +19,7 @@ Unit 3
 
 ----------------------------------------------------------------
 
-Retrun Method :   MUST return a matching data makes the data of the method to be reusable
+Return Method :   MUST return a matching data makes the data of the method to be reusable
 
 ----------------------------------------------------------------
 Method Overloading: multiple methods sharing the same name   
@@ -36,8 +36,8 @@ Data Structures:
 2. Collection: does not support primitives
 3. Map: does not support primitives
 Wrapper class: Byte, Short, Integer, Long, Float, Double, Character, Boolean
-presensted in "java.lang"package.
- Autoboxing: coverting primitives to wrapper class value
+presented in "java.lang"package.
+ Autoboxing: converting primitives to wrapper class value
  Unboxing: converting wrapper class value to primitives Integer, Double,  Boolean, Character
  methods:
  1. parse methods: converting string to primitives not case sensitive
@@ -45,7 +45,7 @@ presensted in "java.lang"package.
 
  ----------------------------------------------------------------
 ArrayList ====>
-Data Structurs:
+Data Structures:
 1. Array: size is fixed, [], supports primitives & non primitive
 2. Collection: size is dynamic, does not support primitives
 3. Map: size is dynamic, does not support primitives
@@ -60,7 +60,7 @@ remove():
 clear():
 indexOf(): 
 lastIndexOf(): 
-conatins(Object): 
+contains(Object):
 equal(list): 
 isEmpty(): 
 ----------------------------------------------------------------
@@ -96,7 +96,7 @@ static: belong to the class, class member -> there is only one copy is shared by
 -static class
 -static ONLY accepts static members
 -static variables: belong to the class.
-ONLY one copystatic methods: belong to the class.
+ONLY one-copy static methods: belong to the class.
 
 
 
