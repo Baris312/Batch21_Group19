@@ -9,7 +9,7 @@
 * Where is String memory locating ?
 - String are in Heap memory and in the heap there is String pool ,
      Unless we create new object all the old values saved  and used from  the String pool .
-     new Keyword new memory and new object will be create but we are still using String pool memory indirectly from new object
+     new Keyword creates new memory and new object  but we are still using String pool memory indirectly from new object
 
             * Why String is Immutable?
 
@@ -46,5 +46,5 @@
    2- Synchronized method to control access             2-  Does not have synchronized methods
     (only one thread can access to StringBuffered
     object's synchronized code at one time )
-    
+
     3- Slower than String builder                       3- Faster
