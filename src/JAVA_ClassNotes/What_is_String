@@ -39,3 +39,12 @@
  * is there anyway to modify or mutation of String ?
 
  - Yes , we are using String buffer or String builders to modify value of string .
+
+
+         ******* String Buffer              VS          String Builder ********
+   1- Synchronized (thread-safe)                        1-  NON synchronized (not thread-safe)
+   2- Synchronized method to control access             2-  Does not have synchronized methods
+    (only one thread can access to StringBuffered
+    object's synchronized code at one time )
+    
+    3- Slower than String builder                       3- Faster
