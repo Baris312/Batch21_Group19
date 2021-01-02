@@ -1,0 +1,19 @@
+
+*  Which locator uses contains keyword for their regular expression
+- Xpath
+
+ * why className locator is not recommended to use
+ - className can not have space if there is space we can not use it . error will occur "Compound class name not permitted"
+
+ * What is difference between relative and absolute Xpath ?
+ - main difference  'Relative' doesnt depend on parent notes
+
+ -       Absolute Xpath                           VS                       Relative Xpath
+   (Absolute path from parent to child)                                 ('Relative' doesnt depend on parent notes)
+    1 - Starts with single slash "/"                                1 - Relative xpath starts with double slash "//"
+    2 - Starts from the very root element from  HTML page           2 - "//" --> means you can start from anywhere in the code
+    3 - Goes down to desired web element 1 by 1                     3 - start anywhere we want to start from, RELATIVE XPATH is very dependable.
+    4 - It is usually very long                                     4 - You will only have problem with this only ->
+    and for this reason it is easy to breakable                             if the attribute value you used in the locator is changing.
+
+

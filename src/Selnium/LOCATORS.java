@@ -27,7 +27,7 @@ What is maven ?
         - src
             - main : is used by developers to write java applications
             - test : is used by developers to write UNIT tests for the source code
-#2- pom.xml : PROJECT OBJECT MODEL, pomxml
+#2- pom.xml : PROJECT OBJECT MODEL, pom.xml
     - pom.xml file is the MOST important file in a maven project
     - this file allows us to add and manage dependencies into our project
     - we can change and update the dependency versions from this file easily
@@ -72,8 +72,8 @@ Driver navigate ;
   *  name
   *  .sendKeys();
     -   Keys.ENTER;
-  * Id
-  * classname
+  * Id         >>> every class may not have ID or it could be dynamic ad change everytime . Best to use Xpath
+  * classname  >>> className can not have space if there is space we can not use it . error will occur "Compound class name not permitted"
   * tagName
   * gettext();
   * .getAttribute("attribute");
@@ -139,9 +139,38 @@ Driver navigate ;
     - -> * in xpath means we are NOT looking for a specific tag name. we are looking for attributes and values.
 
 
+* What is difference between relative and absolute Xpath ?
+ -       Absolute Xpath                           VS                       Relative Xpath
+  #1- ABSOLUTE XPATH:
+    1 - Starts with single slash "/"                                1 - Relative xpath starts with double slash "//"
+    2 - Starts from the very root element from  HTML page           2 - "//" --> means you can start from anywhere in the code
+    3 - Goes down to desired web element 1 by 1                     3 - start anywhere we want to start from, RELATIVE XPATH is very dependable.
+    4 - It is usually very long                                     4 - You will only have problem with this only ->
+    and for this reason it is easy to breakable                             if the attribute value you used in the locator is changing.
 
 
+$x("") -> to check CSS
+$("")  -> to check Xpath
 
 
 Thread.sleep(3000); --> Which library is this coming from?
+
+ */
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  */
