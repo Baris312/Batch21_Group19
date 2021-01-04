@@ -9,21 +9,23 @@
 * Where is String memory locating ?
 - String are in Heap memory and in the heap there is String pool ,
      Unless we create new object all the old values saved  and used from  the String pool .
-     new Keyword creates new memory and new object  but we are still using String pool memory indirectly from new object
+     new Keyword creates new memory and new object ,   but we are still using String pool memory indirectly from new object
 
-            * Why String is Immutable?
 
-- ones object has created it can not change in heap memory ,
-         it can only create new value or new copy in heap as reference of same variable.
-
- - old memory only remove from java heap memory by java Garbage collector.
 
  - because String is immutable we dont need to use "new" keyword to create new memory .
      When  we use "new" keyword it allow us to create separate object that reference a separate new value.
      By using "new" keyword we are creating new object in heap memory and not using old attribute value.
-     we can use same value in heap memory for different variables when we assign same value to more than 1 variables
+     we can use same value in heap memory for different variable objects.  when we assign same value to more than 1 variables
      value of object will not be modified or change
       but creating with "new" keyword even same variable and same attribute is not assign to same value because new object has new value.
+
+
+    * Why String is Immutable?
+
+- ones object has created it can not change in heap memory ,
+         it can only create new value or new copy in heap even its  assigned to     same variable  .
+
 
 - So when we are working with String we do not needed "new" keyword because the original String will not be modified
         Because String is immutable .
@@ -34,7 +36,7 @@
 
 - So String is immutable because it will reduce complication and  increase the performance .
 
-
+- old memory only remove from java heap memory by java Garbage collector.
 
  * is there anyway to modify or mutation of String ?
 
