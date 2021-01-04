@@ -37,7 +37,6 @@
 - So String is immutable because it will reduce complication and  increase the performance .
 
 - old memory only remove from java heap memory by java Garbage collector.
-
  * is there anyway to modify or mutation of String ?
 
  - Yes , we are using String buffer or String builders to modify value of string .
