@@ -1,0 +1,31 @@
+
+
+
+Exceptions ;
+
+  ***** unchecked Exceptions    (occurs during runtime )
+         >**  try & catch
+         >** multi-catch
+         >** finally
+
+  ***** checked exceptions  (occurs compile time , if dosent use exception class can not run )
+      >** throws  (it can only be in signature of class , it give only over pass not solution of error )
+      >** throw   ( it can only in the class )
+      >** custom exceptions
+
+
+
+
+   ****   RunTime Exception Class ___ is  the parent of all Unchecked exceptions
+
+
+   **** Checked Exceptions (unwanted )  ; occurs  during compile time
+   Exceptions  ; is parent of checked exceptions and Runtime Exceptions
+
+
+
+   ****   Custom Exceptions:  (it allow us to customize  exceptions and  error text )
+         ** how to create custom unchecked exception ?
+                         --> inheriting RuntimeException class
+         ** how to create custom checked exception?
+                         --> by inheriting Exception class
