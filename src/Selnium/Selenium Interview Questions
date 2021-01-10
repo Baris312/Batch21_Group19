@@ -1,11 +1,11 @@
 
 Q*  Which locator uses contains keyword for their regular expression
 - Xpath
-
+-------------------------------------------------------------------
 Q* why className locator is not recommended to use
  - className can not have space if there is space we can not use it . error will occur "Compound class name not permitted"
 
-
+-------------------------------------------------------------------
 Q* What is difference between relative and absolute Xpath ?
  - main difference  'Relative' doesnt depend on parent notes
 
@@ -21,10 +21,56 @@ Q* What is difference between relative and absolute Xpath ?
 
 
 ***** From parent to child  //tagName[@attribute='value']/following-sibling:: attribute
-
+-------------------------------------------------------------------
 Q* Using Xpath can you traverse back from child to parent to identified parent ?
 - Yes we can  .=> .//*[@attribute='value']/parent::className
 - CSS you can not do that , its only possible on XPATH !
-
+-------------------------------------------------------------------
 Q* in scenario  if there is there is no attributes available  is there any way to locate element ?
 - yes using text() and empty space both side of  value  ->   //*[text()=' value ']
+
+-------------------------------------------------------------------
+Q*  What is different between findElement(); VS findElements();    :
+
+   *****************.findElement():                                       VS      ***********.findElements();
+ 1- Finds and returns SINGLE WebElement                                   1-This method can find and return multiple web elements
+ 2- Return type is WebElement                                             2 - returning multiple web elements (List of WebElements)
+ 3- If it cannot find WebElement it throws NoSuchElementException         3 - when it cannot find a web element
+                                                                            -> It will not throw exception
+                                                                            -> It will return empty List.
+ 4- Even if the locator we provide returns multiple web elements
+ , it will return us the first web element located
+
+
+
+-------------------------------------------------------------------
+Q* What is TestNG?
+       - TestNG is advanced unit testing tool that allows us creating test flow using annotations.
+   Why do we learn TestNG?
+       - We learn testNG to take advantage of its annotations and reports.
+-------------------------------------------------------------------
+
+Q*  **** Q*  How many type of dropdown there are ?
+
+       #1- HTML Dropdowns:
+           -> If it is an HTML dropdown, meaning it is not <select> tag, we just locate it as any other web element, and click to it.
+       #2- Select Dropdowns:
+           -> Select dropdowns are created using <select> tag.
+
+-------------------------------------------------------------------
+
+Q*  What is difference  implicit wait and Threads.sleep ?
+
+__Please see file for Implicit Wait for details !!
+
+-------------------------------------------------------------------
+
+Q* - StaleElementReferenceException :
+          - This happens in 2 common scenarios:
+          #1- When a previously located web element is deleted from the page
+          #2- When navigation happened on a page: refresh(), forward(), back()
+          - To solve this, we need to re-locate (refresh) the web element's reference
+
+-------------------------------------------------------------------
+Q* Thread.sleep(3000); --> Which library is this coming from?
+ -  not from Selenium

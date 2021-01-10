@@ -1,0 +1,66 @@
+HANDLING DROPDOWNS WITH SELENIUM
+    - There are two types of dropdowns.
+
+
+    WHAT CAN BE TESTED ABOUT A DROPDOWN?
+        - What is selected by default?
+        - What options are available in the dropdowns?
+        - When you select an option, is it actually selected?
+
+
+
+   **** Q*  How many type of dropdown there are ?
+
+    #1- HTML Dropdowns:
+        -> If it is an HTML dropdown, meaning it is not <select> tag, we just locate it as any other web element, and click to it.
+    #2- Select Dropdowns:
+        -> Select dropdowns are created using <select> tag.
+
+
+
+
+     *********** How to handle Select dropdowns using selenium?
+        #1- We need to locate the <select> dropdown
+        #2- We need to create object of Select class (from selenium library)
+        #3- Pass the web element into Select constructor.
+        #4- We will be allowed to use select dropdown methods.
+
+
+   **** Select select = new Select(driver.findElement(By.xpath("//select[@id='dropdown']")));
+
+
+*******How do we actually select from a SELECT dropdown?
+ - There are 3 ways of selecting.
+    -> selectByVisibleText()
+        -* this method accepts a string argument
+        -* then selects the given option with visible text
+            ---> syntax: select.byVisibleText("text goes here");
+
+    -> selectByValue
+        -* this method will select by the value of the attribute "value"
+            --> syntax: select.byValue("1");
+    -> selectByIndex
+        -* this one selects by the index number of the <option>
+        -* index start from 0
+            --->syntax: select.byIndex(2);
+
+
+
+How do we get what is selected from the dropdown?
+    - getFirstSelectedOption();
+    - This method will get the option that is currently selected.
+    - This method will return the currently selected option as a web element
+
+
+
+
+How do we get all of the options in a dropdown?
+    -> .getOptions();
+        - This method just returns all of the existing options in the dropdown.
+        - Return type: List<WebElement>
+
+    -> .getAllSelectedOptions();
+        - This method will return all of the selected options.
+
+    -> .deDeselectAll();
+        - IF there are multiple options selected, it will de-selected whatever is selected.
