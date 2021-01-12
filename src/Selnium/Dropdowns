@@ -16,6 +16,10 @@ HANDLING DROPDOWNS WITH SELENIUM
     #2- Select Dropdowns:
         -> Select dropdowns are created using <select> tag.
 
+Q*  What is Select class in Selenium Library:
+               - Basically a class that has bunch of ready methods to handle <select> type of dropdown.
+           When can we use the Select class?
+               - Only if the dropdown has <select> tag.
 
 
 

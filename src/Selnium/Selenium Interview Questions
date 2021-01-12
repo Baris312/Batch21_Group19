@@ -74,3 +74,18 @@ Q* - StaleElementReferenceException :
 -------------------------------------------------------------------
 Q* Thread.sleep(3000); --> Which library is this coming from?
  -  not from Selenium
+-------------------------------------------------------------------
+
+ Q* What kind of Exceptions you are seeing, and how are you handling them.
+
+        1- NoSuchElementException
+        2- StaleElementReferenceException
+        3- NullPointerException
+-------------------------------------------------------------------
+Q* What would you do if you see NoSuchElementException?
+       - How do you handle NoSuchElementException?
+       1- You need to check the locator if it is correct or not.
+       2- Making sure our driver is on the same page with the chrome.
+           - Implicit waits
+           - Thread.sleep right before trying to locate that web element causing the NoSuchElementException
+-------------------------------------------------------------------
