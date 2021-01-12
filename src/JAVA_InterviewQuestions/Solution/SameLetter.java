@@ -1,4 +1,4 @@
-package JAVA_InterviewQuestions;
+package JAVA_InterviewQuestions.Solution;
 
 import java.util.Arrays;
 

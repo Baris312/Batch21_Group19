@@ -1,10 +1,10 @@
-package JAVA_InterviewQuestions;
+package JAVA_InterviewQuestions.Solution;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Unique {
+public class findUnique {
 
     public static void main(String[] args) {
 

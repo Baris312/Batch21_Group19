@@ -1,4 +1,4 @@
-package JAVA_InterviewQuestions;
+package JAVA_InterviewQuestions.Solution;
 
 public class SumOfString_Digits {
     public static void main(String[] args) {
