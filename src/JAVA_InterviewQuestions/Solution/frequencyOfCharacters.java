@@ -33,7 +33,7 @@ public class frequencyOfCharacters {
   //          }
          if (!result.contains(arr[i]))
          {
-             result += arr[i] + count;   // add char if its not contain concat with count  when you add
+             result += arr[i] + count;   // add char if its not contain already > concat with count  when you add
          }
         }
       return   result;
