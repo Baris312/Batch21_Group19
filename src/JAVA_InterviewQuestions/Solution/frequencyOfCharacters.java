@@ -1,5 +1,8 @@
 package JAVA_InterviewQuestions.Solution;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class frequencyOfCharacters {
     public static void main(String[] args) {
         String str = "aaaaabbbbbddddaaaaeeeefgheee";
@@ -8,7 +11,7 @@ public class frequencyOfCharacters {
           }
 
 
-  /*       public static String frequencyOfCharacters (String str)
+        public static String frequencyOfCharacters (String str)
     {
 
         String[] arr = str.split("");   // 1- split each char and put them in array
@@ -17,27 +20,29 @@ public class frequencyOfCharacters {
 
         for(int i=0; i < arr.length; i++)   // 3 - find their frequency
         {
-            int count=0;
 
 
-            for (int j=0;j< arr.length;j++)
-            {
-            if (arr[j].equals(arr[i]))
-            {
-                count++;
-            }
+         int  count =  Collections.frequency(Arrays.asList(arr),arr[i]);
+//            for (int j=0;j< arr.length;j++)
+//            {
+//            if (arr[j].equals(arr[i]))
+//            {
+//                count++;
+//          }
 
-            }
-         if (!result.contains(arr[i]))  result +=  arr[i]+count;   // add char if its not contain concat with count  when you add
-
+  //          }
+         if (!result.contains(arr[i]))
+         {
+             result += arr[i] + count;   // add char if its not contain concat with count  when you add
+         }
         }
       return   result;
 
        }
 
 
-   */
 
+/*
     public static String frequencyOfCharacters (String str)
     {
         String result="";  // create empty string for return result
@@ -60,6 +65,8 @@ public class frequencyOfCharacters {
 
     }
 
+
+ */
 /*
             Solution 3:
 
