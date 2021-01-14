@@ -10,9 +10,9 @@ public class OOP_ClassNotes {
                 * 3. Inheritance: extends
                 * 4. Encapsulation
 
-
-                *Encapsulation:
-                - Why we use Encapsulation method ?
+*/
+  //              *Encapsulation: protect and Hide Data
+    /*            - Why we use Encapsulation method ?
                 * protect data, fields (instance variable)
                 * protect  member of class and some methods from external access ad change  by private.
                 * prevent unauthorized setup or modification or access
@@ -29,9 +29,15 @@ public class OOP_ClassNotes {
 
 
 
+*/
 
-                *******  Inheritance : to build IS A relationship between the classes.
-                *  parent and child classes easiest and fastest way to get rich ==>
+
+
+
+
+
+ //               *******  Inheritance : to build IS A relationship between the classes.
+   /*             *  parent and child classes easiest and fastest way to get rich ==>
                 *  *****  extends keyword
                 *  IS A RelationIS A Relation VS Has A Relation  ***
                 * child class (sub):  can inherit methods and variables from parent class
@@ -64,10 +70,45 @@ public class OOP_ClassNotes {
                 final class can  be sub class, but can NEVER be super class
 
 
-   ===============================================================================
-                ******** POLYMORPHISM ***********
 
-   * 
 
      */
+
+
+
+
+
+  //  Abstraction And Interface  ; Extend and abstract method and implement methods
+    /*
+
+
+    what we need interface:
+        A class can extend one class
+        A class implement multiple interfaces
+**********  Abstract class                 VS           *******Interface:
+
+1- a class can only extend one abstract class                 1- a class can implement multiple interfaces
+2-  everything a regular class can + abstract method            2-  variable: public static and final
+                                                                         > methods: abstract method
+                                                                            >  static methods
+                                                                              > default method
+
+
+
+
+ Abstract and   interface:
+                             both used for achieving abstraction
+                             both meant to be inherited ( extends, implements)
+                             both cannot be final
+                             both cannot create objects
+
+     */
+
+
+
+    // ===============================================================================
+    //                ******** POLYMORPHISM ***********
+
+
+
 }
