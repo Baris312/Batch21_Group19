@@ -1,0 +1,29 @@
+
+
+Q*  what is difference object and class ?
+A class is a template for objects.
+A class defines object properties including a valid range of values, and if value not assigned object gets  default value.
+
+
+
+
+                ***********Object	        VS           *********  Class
+1)	Object is an instance of a class.	                1- Class is a blueprint or template from which objects are created.
+2)	Object is a real world entity such as               2- Class is a group of similar objects.
+pen, laptop, mobile, bed etc.
+3)	Object is a physical entity.	                    3- Class is a logical entity.
+4)	Object is created through new keyword mainly e.g.   4- Class is declared using class keyword e.g.
+Student s1=new Student();	                                class Student{}
+
+5)	Object is created many times as per requirement.	 5- Class is declared once.
+6)	Object allocates memory when it is created.          6- 	Class doesn't allocated memory when it is created.
+7)	There are many ways to create object                 7 - There is only one way to define class in java using class keyword.
+in java such as new keyword, newInstance() method,
+ clone() method, factory method and deserialization.
+
+
+
+
+
+
+ source ; https://www.javatpoint.com/difference-between-object-and-class
