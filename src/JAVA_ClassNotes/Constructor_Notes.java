@@ -38,8 +38,8 @@ public class Constructor_Notes {
 
 
 
-    this: refers to the object instance. current class
-    this.: to call instances. current class
-    this(): to call constructor. current class
+    this = refers to the object instance. current class
+    this.= to call instances. current class
+    this()= to call constructor. current class
      */
 }
