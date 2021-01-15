@@ -65,7 +65,9 @@ public class TestingTypes {
                                          ( Component is a stand alone functionality that can work by itself.)
                                            Ex. Amazon Buyer Functionality,Seller Functionality, Prime Video Functionality.
                                  >- Integration Testing    > Developers <
-                                                ( check several unit functionality in same time )
+                                                ( check several component functionality in same time )
+
+
                                  >- System Testing             > Tester <
                                         * GUI Testing
                                         * Usability Testing
