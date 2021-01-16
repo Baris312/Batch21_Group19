@@ -14,6 +14,7 @@ public class findUnique {
 
     }
 
+
 /* 1-
     public static String unique (String str){
 

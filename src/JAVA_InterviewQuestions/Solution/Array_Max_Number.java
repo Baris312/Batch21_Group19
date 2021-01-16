@@ -7,7 +7,9 @@ public class Array_Max_Number {
 
 
         int[] num = {1, 20, 50, 4, 7, 12};
+
         System.out.println(max(num));
+
 
     }
 /*

@@ -8,6 +8,8 @@ public class frequencyOfCharacters {
         String str = "aaaaabbbbbddddaaaaeeeefgheee";
 
         System.out.println(frequencyOfCharacters(str));
+
+
           }
 
 
