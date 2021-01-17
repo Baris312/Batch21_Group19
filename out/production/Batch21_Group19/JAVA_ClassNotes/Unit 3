@@ -49,7 +49,7 @@ Data Structures:
 1. Array: size is fixed, [], supports primitives & non primitive
 2. Collection: size is dynamic, does not support primitives
 3. Map: size is dynamic, does not support primitives
-ArrayList: part of Collection, is a class, internally uses arraysize is automatically adjusteddoes not support primitives   has index
+ArrayList: part of Collection, is a class, internally uses array-size is automatically adjusted does not support primitives   has index
 
 
 

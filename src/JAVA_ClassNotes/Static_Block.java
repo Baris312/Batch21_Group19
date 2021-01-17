@@ -3,6 +3,7 @@ package JAVA_ClassNotes;
 public class Static_Block {
   static int v;
    static String b;
+  //  static String a ="you can use static ";
     static {
         v=5;
         b ="final";
@@ -12,8 +13,14 @@ public class Static_Block {
 
     public static void main(String[] args) {
       System.out.println("test");
-
+//       static int v=10;
+//       static String a ="you can use static ";
+        System.out.println( Static_Block.v);
     }
+
+}
+class c{
+
 
 }
 

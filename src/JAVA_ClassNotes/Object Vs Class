@@ -27,3 +27,11 @@ in java such as new keyword, newInstance() method,
 
 
  source ; https://www.javatpoint.com/difference-between-object-and-class
+
+* Classes define what an object knows and what an object does.
+
+* Things an object knows are its instance variables (state).
+
+* Things an object does are its methods (behavior).
+
+ * Methods can use instance variables so that objects of the same type can behave differently.
