@@ -10,9 +10,10 @@ What is Selenium?
 -> Difference between maven and selenium?
     - Maven is the tool that we use to create the JAVA PROJECT ITSELF.
 
-
-What is maven ?
-    - "BUILT AUTOMATION TOOL"
+*/
+   //  *** What is maven ?
+  //  - "BUILT AUTOMATION TOOL"
+/*
 - WHAT IS BUILD?
     - Build is repeated steps when we are creating a java project.
 - What are those repeated steps?
@@ -39,10 +40,10 @@ What is maven ?
            ACTUAL RESULT VS EXPECTED RESULT
 
 
+*/
 
-
-Driver navigate ;
-
+ //  ****  Driver navigate ;
+/*
   *****      Driver.navigate().to();
     - This method is very similar to driver.get(); method
     - It gets the given URL.
@@ -56,7 +57,13 @@ Driver navigate ;
     *driver.navigate().refresh(); --> it refresh the page
 
 
-      ******* LOCATORS ****
+
+ */
+ //******* LOCATORS ****
+/*
+
+
+
   * .getTitle();
   * .getCurrentUrl();
   * .manage().window().maximize();
@@ -134,15 +141,15 @@ Driver navigate ;
     #2 - //tagName[contains(@attribute, 'value')]
     - -> Looks for the tagName that has matching/containing attribute value
     #3 - //tagName[.='text']
-    -  -> This locator will return the web element (tagname) with given 'text'
-    #4 - //*[@attribute='value']
+    -  -> This locator will return the web element (tagName) with given 'text'
+    #4 - //*[@attribute='value']    =>         //*[.='textValue']
     - -> * in xpath means we are NOT looking for a specific tag name. we are looking for attributes and values.
 
 
 * What is difference between relative and absolute Xpath ?
  -       Absolute Xpath                           VS                       Relative Xpath
-  #1- ABSOLUTE XPATH:
-    1 - Starts with single slash "/"                                1 - Relative xpath starts with double slash "//"
+    1- ABSOLUTE XPATH:
+    # 1 - Starts with single slash "/"                                1 - Relative xpath starts with double slash "//"
     2 - Starts from the very root element from  HTML page           2 - "//" --> means you can start from anywhere in the code
     3 - Goes down to desired web element 1 by 1                     3 - start anywhere we want to start from, RELATIVE XPATH is very dependable.
     4 - It is usually very long                                     4 - You will only have problem with this only ->
@@ -156,21 +163,86 @@ $("")  -> to check Xpath
 Thread.sleep(3000); --> Which library is this coming from?
 
  */
+
+
+ //   --> How to go from parent to child using xpath locator?
+ /*   - We go from parent to child using "/"
+
+
+
+    <div id="hh5" class="lol9" name="uu8" for="pp9">
+        <a href="https://google.com"> GOOGLE </a>
+    </div>
+    //div[@class='lol9'] --> this is pointing to div web element
+    //div[@class='lol9']/a --> this is pointing to <a> web element
+
+
+--> Selecting which child we want to go when we have multiple options:
+    - We just use [] and pass index numbers.
+
+    //div[@class='container']/div[1] --> will go to first child
+    //div[@class='container']/div[2] --> will go to second child
+    //div[@class='container']/div[3] --> will go to third child
+
+
+
+
+--> How to go from child to parent in xpath locator?
+    - We use "/.." this goes from child to parent
+
+*/
+
+// What is different between findElement(); VS findElements();    :
+/*
+   *****************.findElement():                                       VS      ***********.findElements();
+ 1- Finds and returns SINGLE WebElement                                   1-This method can find and return multiple web elements
+ 2- Return type is WebElement                                             2 - returning multiple web elements (List of WebElements)
+ 3- If it cannot find WebElement it throws NoSuchElementException         3 - when it cannot find a web element
+                                                                            -> It will not throw exception
+                                                                            -> It will return empty List.
+ 4- Even if the locator we provide returns multiple web elements
+ , it will return us the first web element located
+*/
+
 /*
 
+ */
+
+//HOW TO HANDLE CHECKBOXES AND RADIOBUTTON USING SELENIUM?
+/*
+
+    - We just located it as any other web element using any of the locators and click to select (or unselect).
+    - How do we verify if it is selected or not?
+        - .isSelected() method to verify.
+- .isSelected();
+    -> Can be used with checkboxes and radio buttons.
+    -> What is the return type?
+        - boolean
+    -> If the given checkbox/radiobutton is selected, it will return TRUE
+    -> If the given checkbox/radiobutton is NOT selected, it will return FALSE
+- .isEnabled();
+    -> This method checks if the given web element is clickable or interactable
+    -> If we are able to see the web element but not able to click it means it is not enabled.
+    -> If webElement is enabled this method will return TRUE
+    -> If webElement is NOT enabled this method will return FALSE
+    driver.findElement(LOCATOR).isEnabled(); --> will return true if clickable
+    driver.findElement(LOCATOR).isEnabled(); --> will return false if NOT clickable
+
+ */
+
+
+//- StaleElementReferenceException :
+/*
+
+        - This happens in 2 common scenarios:
+        #1- When a previously located web element is deleted from the page
+        #2- When navigation happened on a page: refresh(), forward(), back()
+        - To solve this, we need to re-locate (refresh) the web element's reference
 
 
 
+ */
 
-
-
-
-
-
-
-
-
-
-
+/*
 
  */

@@ -4,25 +4,29 @@ public class SoftSkillQuestionnaire {
 }
 /*
 
+
+
  1-  ** Bug Ticket ;
     * Who to assign a bug ticket/report ?
         - 1.  to a developer
         - 2.  tech lead / team-lead  (dev team = developers + testers)
         - 3.  BA / PO
- Q **Difference between bug severity and bug priority ?
+        */
 
+// Q **Difference between bug severity and bug priority ?
+/*
      * bug priority ?
                  -> Severity level : how much does a bug effect to the whole project? (decided by testers )
        - high level : the whole project crashed / major functions are not working
        - mid level : effecting some functions
        - low level : less effective .
+*/
 
+//2 -  what is  Backlog  ??
+//     == Product backlog-  list of user story , bugs, task
+/*
 
-2 -  what is  Backlog  ??
-     == Product backlog-  list of user story , bugs, task
-
-
-3 - What is blackbox Testing
+  //   3 - What is blackbox Testing
 - Testing withOut Seeing actual code , generally  use in UAT testing .
 
 Q4 -  What reports do you use in Jira ?
@@ -76,6 +80,23 @@ Q22 -What is the difference between retesting and regression testing?
 
 Q23 - Can you also explain your previous project> what was it about? What did you do?
 
+Q*24 - who starts & compete a sprint ->
+- SM
 
+ */
+//Q*25 - What is Entry and Exit Criteria in Software Testing ?
+/*
+Entry criteria – It is a process that should run when a system begins.
+It includes the following artifacts.
+** SRS (Software Requirement Specification)
+** FRS (Functional Requirement Specification)
+** Test-Case
+** Test-plan
+** Test strategy
+Exit Criteria – It signals when the testing should complete
+ and when should the product be ready to release. It includes the following artifacts.
 
+ ** Test Summary Report
+ ** Metrics
+ ** Defect Analysis report
  */

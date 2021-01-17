@@ -1,0 +1,18 @@
+
+
+
+Alt + Enter  ; Warning or suggestions like checked exceptions
+
+command 1    ; project window opens
+command B     ; navigate to code window  to class file  location
+Alt command B ; navigate to code using classes and implementation locations
+command E     ; recently open places
+Alt F7        ; navigate to code using classes
+TAp Control twice ; Run any file from anywhere
+Option ↑ or Option ↓  ; Selecting next valid option to you copy or delete to select more item
+Option command  ;  comment block for selected lines
+option command L ;  format lines
+
+Control T ; all shortcuts
+
+Option command J ; Template selections
