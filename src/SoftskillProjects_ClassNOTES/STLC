@@ -1,0 +1,37 @@
+software testing life cycle
+
+
+
+
+stlc is series of systematic and well defined steps performed during the testing of a software application
+
+what  is benefits ;
+ testing team gets  involved right from initial phases of software development life cycle
+
+
+ lower cost ad time to deliver more efficient  product to achive our goal in each every sprint  time
+
+
+ Req Analysys  get details , review and understand all the requirement documents
+
+ test planing prepareation ; most important activity on stlc
+ > defining test specification  > Resource allocations  to estimate duration and cost anlysy , Which included tolls and training costs
+
+Test case creation > we are specifying test cases and define if they will be test manually or automated
+ and defines which tools will be use to test .We aso creating test cases   and test data
+
+Test case environment ; we are setting envirmont and tolls and all smiliotions need to start testing .
+ if test needs software or hardware like smoke est and  need parallel test  or development stage test
+ like unit testing and server for continue integration testing .
+ As of test team we may not involve all test stage like non functional test such as stress and perform testing
+  but environment and all testing tool get to set up for all team and traning has to be done in this stage so we can go to next stage of
+
+test executions ; So when we ae ready we start our test to manual and auotomated test . During execution any default or bug found manage by our management tools like  jira to adress to dev and q&a depertment for validation , fix and retest . Tracking all test plan and defects or  bugreport  .
+
+
+Test Cycle closer ;
+
+so we are discussing time , test covarege , software +,-,
+quality and quantity reports  bug report analysis for bug type of severity.
+ with all of this informations we are creation test closure report and preparation for next step of deployment .
+

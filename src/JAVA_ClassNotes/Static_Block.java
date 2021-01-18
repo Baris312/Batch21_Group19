@@ -19,10 +19,7 @@ public class Static_Block {
     }
 
 }
-class c{
 
-
-}
 
 
 /*   Static Block ; It is a static initializer.
