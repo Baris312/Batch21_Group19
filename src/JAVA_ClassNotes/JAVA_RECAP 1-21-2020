@@ -1,0 +1,97 @@
+01/22/2021
+Topics: Java Recap
+Package Name: day51_JavaRecap
+OOP: Object Oriented Programming
+    design pattern of the application in an organized and modular way
+        increase re-usability
+        less codes
+        easy to maintain
+        clear structure
+    1. Encapsulation: data hiding, with private access modifier
+        public > protected > default > private
+            public getter (Read ONLY): return the private data
+            public setter (Write ONLY): assigns the argument to the private data
+            if private data is final, there can only be getter
+    2. inheritance: to build IS A relationship (sub/super)
+                super class: does not inherit any. cannot be final
+                sub class: can inherit visible variables & methods from super class
+                advantages:
+                        clean, clear, less codes
+                        reusable
+                        easy to maintain
+                        less memory usage
+                Method overloading: multiple methods with same name
+                                    any method can be overloaded
+                                    same method name, different parameter
+                Method Overriding: one method with different implementation
+                                    cannot override static, final, private methods
+                                    access modifier MUSt be same or more visible
+                                    return type, method name, parameters MUSt be same
+                                    MUST happen in sub class
+        this vs super: refers to the instances
+            this: current class
+                this.: calls the instance variables & methods of current class
+                this(): calls the constructor of current class
+            super: super class
+                super.: calls the instance variables & methods of super class
+                super(): calls the constructor of super class
+    3. abstraction: hiding implementation. focus on essentials without worrying about the details
+            abstract method: a method without the body
+                             meant to be overridden (cannot be private, static, final)
+             2 ways to achieve:
+                    1. abstract class: meant to be super class (common features of all sub classes)
+                                       cannot be final
+                                       cannot create object (not concrete)
+                    2. interface: blue print of class, meant to be implemented
+                                  cannot be final
+                                  cannot create object (not a class)
+                                  there can only be Public access modifier
+                                  cannot have:
+                                            instance variables & instance methods
+                                            constructor
+                                            blocks
+                                interface CA NOT inherit from class
+                    extends vs implements:
+                            class  extends  class
+                            interface extends interface1, interface2 ....
+                            class implements interface1, interface2 ....
+                            class extends class implements interface1, interface2 ....
+                        Shape:
+                            area();
+                        Car
+                            start();
+                        Animal:
+                            eat();
+    4. polymorphism: behaviors of object in many forms
+            Parent class/interface being referenced to child' objetcs
+            IS A relation is precondition
+            Reference type decides what can called
+            always overridden one gets executed
+            WebDriver driver = new ChromeDriver();
+            Animal animal = new Dog();
+            animal.eat();
+        //  animal.bark();
+2 Types of casting: converting one type to another
+
+        1. primitive type castings: between primitives
+                    1. implicit: smaller to larger. automatically done
+                            byte a = 100;
+                            long b = a;  // implicit
+                    2. explicit: larger to smaller. manually
+                            long a = 100;
+                            byte b = (byte)a;
+        2. reference type castings: between none primitives
+                    IS A relation is precondition
+                1. up casting:  smaller to larger. automatically done
+                        Dog dog = new Dog();
+                        Animal animal = dog;  // up casting
+                    //  Car car = dog;
+                2. down casting: larger to smaller. manually
+                        Animal animal = new Dog();
+                         ( (Dog)animal ).bark();
+                    //  ( (cat)animal ).meow();   // Dog IS NOt A cat
+                WebDriver driver = new ChromeDriver();
+                    ( (TakeScreenShot)driver).takeScreenShot();  // one time only
+                    ( (JavaScriptExecuter)driver ).executeScript("");  // one time only
+                    JavaScriptExecuter js = (JavaScriptExecuter)driver;
+                    TakeScreenShot ts = (TakeScreenShot)driver;

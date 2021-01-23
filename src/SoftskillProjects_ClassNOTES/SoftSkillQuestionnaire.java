@@ -54,6 +54,10 @@ Q10 - Suppose in a grooming meeting your developer gave a point
 Q11 - What is verification / validation?
 
 Q12 - What test cases would you not automate?
+- User experience tests for usability (tests that require a user to respond as to how easy the app is to use).
+* Tests that you will only run one-time. ...
+* Test that need to run ASAP.
+* testing case is too expensive than manual testing
 
 Q13 - What percent of your test cases were automated?
 
@@ -72,11 +76,13 @@ Q19 - What was your definition of ready and definition of done in your team?
 
 Q20 - Have you done performance testing?
 
-Q21 - Explain SDLC and STLC?
+Q21 - Explain SDLC and STLC
 
 
 Q22 -What is the difference between retesting and regression testing?
-
+- Regression testing is to ensure that changes have not affected unchanged part.
+ Retesting is done to make sure that the tests cases which failed
+ in last execution are passed after the defects are fixed.
 
 Q23 - Can you also explain your previous project> what was it about? What did you do?
 
