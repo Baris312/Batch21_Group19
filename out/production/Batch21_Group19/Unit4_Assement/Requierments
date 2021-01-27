@@ -1,0 +1,49 @@
+
+
+                    ** Unit 4 Assessment
+  *Custom classes
+  * object
+  * static members
+  * constructors.
+
+
+ [4.1] Custom Classes
+ -What is a class and what is an object?  *
+ -How are objects of a class created? *             new keyword ! class has to same name with file
+ -Instance variables vs local variables *            in constructor  must use "this."
+ -Instance variables in relation with objects *
+ -Creating objects and accessing their fields *
+ -How can we print object to show the information of the object, not the hashcode? *
+ -Java file name in relation to the public class in the file *
+ -How is "this" used *
+
+
+ [4.2] Static members
+ -What are the static members? *
+ -What are the properties of something that is static?**   Only one copy
+ -Class objects vs static fields      * instance variable need object but static doesnt need
+ -Static block and execution flow      * execute first and 1-time
+ -Static method signature   *
+ -Static objects in other classes    *      extend , import or call
+
+
+
+[4.3] Constructors
+
+-What is the purpose of the constructor in a class? *
+-Constructor’s relation with "new" *
+-The rules of creating constructors *
+-What is the default constructor and what happens if you create a constructor manually?*
+-Constructor overloading  *
+-Constructor vs method  *
+-Rules of constructor chaining using this();
+
+
+
+1- same name with class
+2- this(); it has to be first on line
+3- const. can only call 1 const..
+
+4- const can not call itself .
+5 - super keyword and has to be first in line
+6 - constructor can be overloaded. the only way to have more than one constructor in class

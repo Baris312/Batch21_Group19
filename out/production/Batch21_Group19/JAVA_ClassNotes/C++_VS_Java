@@ -1,0 +1,20 @@
+
+
+
+
+*******JAVA                                VS                  C++
+ 1- Runs on a virtual machine.                              1- uses own hardware , Runs as native executable machine code for the target instruction set(s).
+ 2- Operators are not overridable.                          2- Most of operators overridable
+ 3- The strict relationship is enforced                     3 - No strict relationship between class names and filenames.
+ 4 - Java supports both compiler and interpreter            4 - C++ only support compiler
+ 5 - Java doesn’t support unions.                           5 - C++ supports unions
+ 6 - Java is platform independent                           6 - C++ platform dependent
+ 7 - there is no pointer                                    7 - there is Pointer
+ 8 - there is Java Garbage collector                        8 - no Garbage collector
+ 9 - there is no template                                   9 - There are templates
+ 10 - there are no global variables                         10 - there are  global variables  in C++,
+
+
+
+
+
