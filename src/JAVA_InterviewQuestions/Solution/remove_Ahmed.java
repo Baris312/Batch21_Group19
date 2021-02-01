@@ -2,6 +2,7 @@ package JAVA_InterviewQuestions.Solution;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class remove_Ahmed
     {
@@ -13,15 +14,16 @@ public class remove_Ahmed
 
 
                 ArrayList<String> arr = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
-               arr.removeIf(each -> each.equals("Ahmed"));
 
-
-
-//                while(arr.contains("Ahmed"))
-//                    {
-//                        arr.remove("Ahmed");
-//                    }
+                while(arr.contains("Ahmed"))
+                    {
+                        arr.remove("Ahmed");
+                    }
 
                 System.out.println(arr);
+
+
+
+
             }
     }

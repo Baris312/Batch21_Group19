@@ -40,3 +40,60 @@ Interface (not a class): blue print of class
                              both meant to be inherited ( extends, implements)
                              both cannot be final
                              both cannot create objects
+
+
+
+
+
+So firstly an abstract class  are very similar to interfaces,
+you cannot instantiate them and they may contain a mix of methods declared with or without an implementation.
+
+However, abstract classes you can declare fields that are not static and final and define public protected and
+private concrete methods, your abstract class can extend only one parent class,
+however it can implement multiple interfaces.
+Now when an abstract class is subclassed, the subclass usually provides
+implementations for all of the abstract methods in its parent class. However if
+it doesn't, then the subclass must also be declared abstract. So you want to use
+an abstract class when firstly you want to share code among several closely related classes
+animal for example with fields, name, age and so on or if you expect classes that extend your abstract
+class to have many common methods or fields or required access modifiers other than public,
+ so protected in private may also want to use an abstract class when
+you want to declare non static or non , final fields, for example a name and age so this then enables you to define
+methods that can access and modify the state of an object, you know get names set name and so forth and also you may
+want to use an abstract class when you've got a requirement for your base class to provide a default
+
+implementation of certain methods but other methods should be open to being overridden by child classes.
+And so,general summary the purpose of an abstract class is to provide a common
+definition of a base class that multiple derived classes can share.
+
+interfaces,  just the declaration of methods of a class,it's not the implementation.
+interface, we defined what kind of operation an object can perform.
+Operations are defined by the classes that implement the interface,
+so interfaces form a contract between the class and the outside world and this
+contract is enforced at build time by the Java compiler.
+Now you cannot instantiate interfaces and they may contain a mix of methods declared with
+or without an implementation. All methods and interfaces are automatically public and abstract.
+An interface can extend another interface. Interfaces are more flexible and can deal with a lot more stress
+Introducing interfaces into your program, you're really introducing points of variation at which you can plug in
+different implementations for that interface.
+
+Interfaces primary purpose is abstraction decoupling the "what" from the "How"'
+
+
+ since Java 8 interfaces can now contain default methods, so in other words methods with
+implementation. Now the keyword default is used mostly for backwards compatibility and static methods as well
+before Java 8, that wasn't possible and since Java 9 and interface can also
+contain private methods commonly used when to default methods in an interface
+share common code.
+
+
+
+ the interface is comparable and cloneable are implemented by many
+unrelated classes. Now another reason to use an interface is when you want to
+specify the behavior of a particular datatype but you're not concerned about who
+implements its behavior,
+another reason for using an interface if you want to separate different behavior.
+
+
+
+
